@@ -29,12 +29,18 @@ docker-compose up -d
 Accessing the Services
 
  	Prometheus: http://localhost:9090
+![Monitoring Stack](images/2.png)
+
 
  	Grafana: http://localhost:3000
+![Monitoring Stack](images/3.png)
+
  	Default credentials: admin/admin
 
  
  	Node Exporter Metrics: http://localhost:9100/metrics
+![Monitoring Stack](images/2.png)
+
 
 
 Verify Node Exporter and Grafana UP in Prometheus
@@ -50,6 +56,8 @@ Setting Up Grafana Dashboard
   Click "Add data source"
   Select Prometheus
   URL: http://prometheus:9090
+![Monitoring Stack](images/4.png)
+
   Click "Save & Test"
 
 3.	Import the Node Exporter dashboard:
